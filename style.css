@@ -12,10 +12,10 @@ main{
     display: flex;
     
 }
-.input-text{
+.input_text1{
     margin-top: 90px;
 }
-.inputinput-text{
+.input_text2{
     position: relative;
     margin-top: 20px;
     margin-left: 90px;
