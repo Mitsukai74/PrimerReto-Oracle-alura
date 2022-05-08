@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Mi encrptador de texto</title>
+        
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,8 @@
                 <textarea type="text" class="input_text1" cols="40" rows="6" placeholder="Ingrese el texto aquí">
                 </textarea>
                 <h6>Solo letras minúsculas y sin acentos</h6>
-                <button type="button">Encriptar</button>
-                <button type="button">Desencriptar</button>
+                <button type="button" onclick="botonEncriptar()">Encriptar</button>
+                <button type="button" onclick="botonDesencriptar()">Desencriptar</button>
             </section>
             <section>
                 <textarea type="text" cols="18" rows="8" class="input_text2">
@@ -27,4 +28,5 @@
             </section>
         </main>
     </body>
+    <script src="scripting.js"></script>
 </html>
