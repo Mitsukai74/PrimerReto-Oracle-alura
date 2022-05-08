@@ -13,7 +13,7 @@ function encrip(strPara){
         if(strPara.includes(patron[i][0])){
             strPara = strPara.replaceAll(patron[i][0],patron[i][1]);
         }
-    }
+    }    
     return strPara;
 }
 function botonDesencriptar(){
@@ -28,4 +28,10 @@ function descencrip(strParaDesencip){
         }
     }
 return strParaDesencip;
+}
+function mostrartxtarea2(){
+    var mostrar=document.querySelector(".input_text2");
+    if (mostrar.style.display==="none"){
+        mostrar.style.display="block";
+    }
 }

@@ -15,8 +15,22 @@ main{
 .input_text1{
     margin-top: 90px;
 }
+.botones{
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 15%;
+    border-color: blueviolet;
+}
 .input_text2{
+    display: none;
     position: relative;
     margin-top: 20px;
     margin-left: 90px;
+}
+footer{
+    color: blue;
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
 }
