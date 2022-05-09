@@ -6,24 +6,25 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-
 }
 main{
-    display: flex;
-    
+    display: flex;    
 }
 .input_text1{
     margin-top: 90px;
 }
-.botones{
-    
+.mu{
+    width: 280px;
+    height: 280px;
+}
+.botones{    
     width: 200px;
     height: 50px;
     border-radius: 15%;
     border-color: blueviolet;
 }
 .input_text2{
-    display: none;
+    
     position: relative;
     margin-top: 20px;
     margin-left: 90px;
