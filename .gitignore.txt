@@ -1,1 +1,1 @@
-*OtroScript_encriptador.js
+OtroScript_encriptador.js
