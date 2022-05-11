@@ -36,4 +36,10 @@ function descencrip(strParaDesencip){
     }
 return strParaDesencip;
 }
+function copiar(){
+    let copyText = document.querySelector(".input_text2");
+    copyText.select();    
+    alert("Mensaje copiado!");    
+}
+
 
